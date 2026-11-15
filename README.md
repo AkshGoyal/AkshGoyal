@@ -37,7 +37,7 @@ Also: [Invoice Review Workbench](https://github.com/AkshGoyal/invoice-review-wor
 
 **Analyst, Aspect Ratio** (Jun 2025 to Aug 2026). Embedded with a global pharma company’s vaccines commercial team.
 Owned a physician-persona chatbot from brief to handover: multi-agent RAG over hybrid search, with the evaluation framework
-that took it to **94% accuracy**, validated by 10 clinical users. Built tender guidance for the global bidding team across
+that took it from **62% to 94%**, validated by 10 clinical users. Built tender guidance for the global bidding team across
 **40+ countries** and 5 vaccines.
 
 **IIT Delhi** (2021 to 2025): B.Tech, Textile Engineering, with a minor in Business Management. JEE Mains All India Rank 794.
