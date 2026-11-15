@@ -1,73 +1,45 @@
 ## Aksh Goyal
 
-**AI Engineer & Product Builder** · IIT Delhi (2025)  
-I work from inside operations — taking ambiguous briefs from zero precedent to production systems, robust evaluation frameworks, and scalable product roadmaps.
+**I sit with the people who have the problem, ship the AI product they use, and prove it works.**
 
-[Portfolio & Case Studies (akshgoyal.site)](https://akshgoyal.site) · [Resume (PDF)](https://akshgoyal.site/resume.pdf) · [LinkedIn](https://linkedin.com/in/akshgoyal) · [Email](mailto:aksh.iitdelhi@gmail.com)
+IIT Delhi 2025. I spent 15 months embedded with a global pharma company’s vaccines team, turning
+briefs with no precedent into tools they use. I’m looking for **AI product and forward-deployed roles**
+on small teams that move fast and expect ownership. Open to relocating in India or internationally.
 
----
-
-### What I'm Doing
-
-For 15 months, I worked as an Analyst at **Aspect Ratio**, embedded with the Vaccines Commercial team of a global pharmaceutical company — building the AI systems and internal tools their marketing, medical, and global bidding teams depend on:
-
-- **HCP Persona Chatbot (End-to-End)**: Owned from an unprecedented brief for 3 prescriber segments. Designed belief and barrier personas with PersonaCraft & PsychAdapter, architected a multi-agent RAG backend (routing agents over hybrid vector search + BM25), and built the evaluation framework that drove it to **94% accuracy**. Validated by 10 clinical users, then handed over to a large consultancy for production build-out.
-- **Global Vaccine Tender Guidance Tool**: Built decision-support software for the global bidding team spanning **40+ countries and 5 vaccines**, putting pricing guidance at the point of decision.
-- **Enterprise Data Enablement**: Built custom scrapers turning undocumented conference sites into structured datasets, and briefed VP+ executives on AI case studies (Pfizer Charlie, Sanofi, Aktana).
+[**Portfolio, with live demos**](https://www.akshgoyal.site) · [Résumé](https://www.akshgoyal.site/resume.pdf) · [LinkedIn](https://linkedin.com/in/akshgoyal) · [Email](mailto:aksh.iitdelhi@gmail.com)
 
 ---
 
-### Product Thinking & Problem Solving
+### What I’ve built
 
-Case studies and presentation decks tackling complex systems from first principles — focusing on root cause analysis, operational trade-offs, and measurable impact:
+Each project has something you can open, read or try, and one number you can check.
 
-- **[Indian Railways: In-Cabin Signal & Speed Guidance](https://akshgoyal.site/work/indian-railways-delays/)** · [Slide Deck (PDF)](https://akshgoyal.site/Tata1mg_AkshGoyal.pdf)  
-  *Product Strategy & Logistics Case Study (TATA 1mg)*  
-  Addressed the ₹10,000 Cr annual freight loss and winter fog delays. Isolated human line-of-sight visibility as the primary constraint (35% of delays), designed an in-cabin HUD telemetry architecture decoupling train speeds from fog visibility, defined a 3-phase rollout (PoC $\to$ Winter Corridors $\to$ Golden Quadrilateral), and established an On-Time Performance (OTP) metric hierarchy.
+| | Project | The evidence |
+|---|---|---|
+| <img src="https://www.akshgoyal.site/work/duely/dashboard.jpg" width="220" alt="Duely dashboard"> | **[Duely](https://github.com/AkshGoyal/duely)**: your own Claude chases overdue invoices over MCP; Duely keeps every UPI pay link live and every client promise on record. · [**Live app**](https://duely-production-dc131949.up.railway.app) | No model inside: Claude writes, Duely remembers. A client pays, promises a date or raises an issue in **one tap**. |
+| <img src="https://www.akshgoyal.site/work/grounded-outreach/draft.jpg" width="220" alt="Grounded Outreach draft"> | **[Grounded Outreach](https://github.com/AkshGoyal/grounded-outreach)**: B2B email where every sentence traces to a public source, and nothing is sent until a person approves the exact text. · [**Live demo**](https://grounded-outreach-demo.onrender.com) (password `passwordeasy`) | **0 wrong facts** across 15 real executives; 14 of 15 emails ready to send, at $0.02 each. |
+| <img src="https://www.akshgoyal.site/work/pharmagraph/finding.jpg" width="220" alt="PharmaGraph finding"> | **[PharmaGraph](https://github.com/AkshGoyal/pharmagraph-ai)**: follow a batch investigation from an unusual reading to the exact row in the source data. · [**Live demo**](https://pharmagraph-aksh.streamlit.app) | Batch 031’s 86-hour reading traces to **row 34,755, column 17** of the published CSV. Neo4j provenance, Parquet measurements. |
+| | **[Tally Slip Bot](https://github.com/AkshGoyal/tally-slip-bot)**: photograph a handwritten delivery slip, get a Tally invoice. Built for a small manufacturer. | Vision model constrained to **exact Tally names**, voice-note corrections, weekly import file, one-command AWS deploy. |
+| <img src="https://www.akshgoyal.site/work/clinical-evidence-assistant/start.jpg" width="220" alt="Clinical Evidence Assistant"> | **[Clinical Evidence Assistant](https://github.com/AkshGoyal/clinical-evidence-assistant)**: RAG over 48 clinical vaccine documents. | **591 tables** rebuilt from scrambled PDF extractions; BM25 + vectors, local reranking, intent-routed prompts. |
+| <img src="https://www.akshgoyal.site/work/rag-eval-harness/chunk-size-recall.svg" width="220" alt="Recall by chunk size"> | **[RAG Eval Harness](https://github.com/AkshGoyal/Rag-Eval-Harness)**: tells you whether a RAG change helped, and if not, whether retrieval or generation broke. | Recall went from **0% to 53%** after catching a design fault at the first end-to-end run. 510 contracts, no API key needed for the tests. |
 
-- **[Mars Colonization: 20-Year Strategic Roadmap](https://akshgoyal.site/work/mars-colonization-strategy/)** · [Slide Deck (PDF)](https://akshgoyal.site/AkshGoyal_IITDelhi.pdf)  
-  *0-to-1 Long-Horizon Systems & Product Strategy*  
-  Deconstructed establishing a 10,000-settler permanent colony from first principles ("Planetary Insurance Policy"). Formulated a multi-stakeholder funding model (Sovereign Govs $\to$ Philanthropy $\to$ Commercial Mining/Media), an upfront capital allocation framework (40% transit, 25% habitat, 15% ISRU, 20% life support/governance), tough trade-offs, and failure mode mitigations.
-
----
-
-### Featured Engineering Projects
-
-- **[RAG Eval Harness](https://akshgoyal.site/work/rag-eval-harness/)** · `Python · NumPy · Pydantic`  
-  Open-source harness to score RAG configurations case-by-case. Scores retrieval deterministically (hit@k, recall@k) separately from generation to isolate failures. Uses LLM-as-judge for faithfulness, catches category regressions that aggregate averages hide, and logs fingerprinted run manifests.
-
-- **[Outreach Engine](https://akshgoyal.site/work/outreach-agent/)** · `Python · SQLite · SMTP/IMAP`  
-  LLM-personalised B2B outreach engine that structurally enforces grounding: personalisation is strictly constrained to recipient-supplied facts to eliminate hallucination. Features deliverability controls, opt-outs, and threading.
-
-- **[Plan My Day](https://github.com/AkshGoyal/ProductivityAgent)** · `Python · FastAPI · SQLite · Gemini`  
-  Single-user productivity coach that breaks goals into atomic, doable tasks and schedules today's focus against real hours. Shipped with structured outputs, prompt-as-file architecture, and a floating desktop assistant.
-
-- **Legal Precedent Search Platform** · `Azure · BM25 · Vector DB · Python`  
-  Hybrid-search RAG engine over 5M+ judgements across 20+ courts. Reverse-engineered private APIs to ingest millions of records and ran parallel BM25/vector/re-ranking queries on Azure VMs, cutting query latency by 25%.
-
-- **Membership CRM & AI Voice Agent** · `TypeScript · Firebase · Twilio · Ringg.ai`  
-  Lifecycle automation software for subscription businesses, automating member onboarding and retention calls with AI voice agents.
+Also: [Invoice Review Workbench](https://github.com/AkshGoyal/invoice-review-workbench) (the model reads, procurement records decide) · [Pharmacy cart-recovery voice agent](https://github.com/AkshGoyal/cart-recovery-agent) (prescription discounts refused in code) · [Plan My Day](https://github.com/AkshGoyal/ProductivityAgent) · [Job Search Assistant](https://github.com/AkshGoyal/Agent_JobApplications)
 
 ---
 
-### Skills & Tooling
+### How I work
 
-- **AI & Systems**: Multi-Agent RAG, Hybrid Retrieval (BM25 + Semantic Vector Search), Re-ranking, LLM Evaluation (failure-path testing, LLM-as-judge), Structured Outputs (Pydantic), Prompt Engineering, Guardrails.
-- **Software Engineering**: Python, TypeScript, FastAPI, SQL (MySQL, SQLite), Web Scraping (httpx, BeautifulSoup), OpenAI & Gemini APIs, Git, Docker.
-- **Product & Analytics**: Root Cause Decomposition, Systems Thinking, KPI & North Star Metrics, Capital Allocation, Power BI, Alteryx.
+1. **Embed.** Start where the work happens: the Tally bot lives in the chat a factory owner already uses.
+2. **Ship.** End to end, including the boring parts: database, sign-in, deploy. A model only where judgement is needed.
+3. **Prove.** Write the evaluation before tuning, so the number means something and a failure says where to look.
 
----
+### Experience
 
-### Background & Education
+**Analyst, Aspect Ratio** (Jun 2025 to Aug 2026). Embedded with a global pharma company’s vaccines commercial team.
+Owned a physician-persona chatbot from brief to handover: multi-agent RAG over hybrid search, with the evaluation framework
+that took it to **94% accuracy**, validated by 10 clinical users. Built tender guidance for the global bidding team across
+**40+ countries** and 5 vaccines.
 
-- **Indian Institute of Technology Delhi** (2021 – 2025): B.Tech, Textile Engineering | Minor in Business Management (M&A, Marketing, Managerial Accounting)
-- **Competitive Exams**: JEE Mains 2021 All India Rank **794** (top 0.07% of 1M+ candidates) · NTSE Stage 1 Scholar (top 0.002%)
-- **Public Sector Consulting**: Summer Trainee at Grant Thornton Bharat (built executive Power BI dashboard for 287 deployed resources, analyzed performance & compliance for 2,000+ documents).
+**IIT Delhi** (2021 to 2025): B.Tech, Textile Engineering, with a minor in Business Management. JEE Mains All India Rank 794.
 
----
-
-### Looking For
-
-Open to **AI Engineer**, **Forward Deployed Engineer**, and **AI Product** roles — where the work is close to whoever has the problem. Open to relocating in India or internationally.
-
-📫 **Reach out**: [aksh.iitdelhi@gmail.com](mailto:aksh.iitdelhi@gmail.com) · [LinkedIn](https://linkedin.com/in/akshgoyal) · [Portfolio](https://akshgoyal.site)
+<sub>Python · TypeScript · RAG and hybrid retrieval · evaluation · structured outputs · MCP · Postgres · Neo4j · Streamlit · AWS Lambda</sub>
