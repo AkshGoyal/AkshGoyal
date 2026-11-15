@@ -6,7 +6,7 @@ IIT Delhi 2025. I spent 15 months embedded with a global pharma company’s vacc
 briefs with no precedent into tools they use. I’m looking for **AI product and forward-deployed roles**
 on small teams that move fast and expect ownership. Open to relocating in India or internationally.
 
-[**Portfolio, with live demos**](https://www.akshgoyal.site) · [Résumé](https://www.akshgoyal.site/resume.pdf) · [LinkedIn](https://linkedin.com/in/akshgoyal) · [Email](mailto:aksh.iitdelhi@gmail.com)
+[**Portfolio, with live demos**](https://www.akshgoyal.site) · [CV](https://www.akshgoyal.site/akshgoyal_CV.pdf) · [LinkedIn](https://linkedin.com/in/akshgoyal) · [Email](mailto:aksh.iitdelhi@gmail.com)
 
 ---
 
